@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio 😎</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li>
+        <a class="nav__item" href="#section--1">Home</a>
+      </li>
+      <li>
+        <a class="nav__item" href="#section--2">Projects</a>
+      </li>
+      <li>
+        <a class="nav__item" href="#section--3">About Me</a>
+      </li>
+      <li>
+        <a class="nav__item" href="#section--4">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <img id="mars" src="mars.png">
+  <img id="earth" src="earth.png">
+  <img id="moon" src="moon.png">
+  <img id="uranus" src="uranus.png">
+  <img id="neptune" src="neptune.png">
+  <img id="venus" src="venus.png">
+  <header>Hi i am <br><span>Mohammed Ali Zeeshan</span><br>A Front-End Web Developer</header>
+  <a id="scroll" class="move" href="#section--2">Scroll Down ↓ </a>
+  <section id="section--1">
+    <div class="backg">
+        <div class="planet">
+          <div class="r1"></div>
+          <div class="r2"></div>
+          <div class="r3"></div>
+          <div class="r4"></div>
+          <div class="r5"></div>
+          <div class="r6"></div>
+          <div class="r7"></div>
+          <div class="r8"></div>
+          <div class="shad"></div>
+        </div>
+        <div class="stars">
+          <div class="s1"></div>
+          <div class="s2"></div>
+          <div class="s3"></div>
+          <div class="s4"></div>
+          <div class="s5"></div>
+          <div class="s6"></div>
+        </div>
+        <div class="an">
+          <div class="tank"></div>
+          <div class="astro">
+              
+              <div class="helmet">
+                <div class="glass">
+                  <div class="shine"></div>
+                </div>
+              </div>
+              <div class="dress">
+                <div class="c">
+                  <div class="btn1"></div>
+                  <div class="btn2"></div>
+                  <div class="btn3"></div>
+                  <div class="btn4"></div>
+                </div>
+              </div>
+              <div class="handl">
+                <div class="handl1">
+                  <div class="glovel">
+                    <div class="thumbl"></div>
+                    <div class="b2"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="handr">
+                <div class="handr1">
+                  <div class="glover">
+                    <div class="thumbr"></div>
+                    <div class="b1"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="legl">
+                <div class="bootl1">
+                  <div class="bootl2"></div>
+                </div>
+              </div>
+              <div class="legr">
+                <div class="bootr1">
+                  <div class="bootr2"></div>
+                </div>
+              </div>
+              <div class="pipe">
+                <div class="pipe2">
+                  <div class="pipe3"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="section--2">
+        <center><h1 id="projects" >Projects</h1></center>
+        <div id="project1">
+          <h2>
+            <span>COUNTRY DATA BY NAME - </span>
+            <p id="countryDataContext">This project Provides data of a country based on your choise.
+              It porvides data such as Name, Capital , Region , Population , Currency and Language.
+              This project is builded using Asynchronus javascript concepts such as Fetch , Promises and 
+              Async Await. For more Detail visit
+              <center><a onclick="alertFunction()" id="coutryLink" href="https://github.com/alizeeshan1234/Countries-Data-by-Name" target="_blank">Country DataBy Name</a><center>
+</h4>
+            </p>
+          </h2>
+        </div>
+        <div id="project2">
+          <h2>
+          <span>MAPTY PROJECT - </span>
+          <p id="MaptyContent">
+            This Project is bulilded using an external Leaflet library. This project displayes an real world map.<br>
+            You can use mapty to mark Your Location or mark your Work or any other thing which are important to you.<br>
+            You can set up the distance in KM for a walk or you can use Cadence in case your are Cycling. For more details 
+            <center><a onclick="alertFunction()" id="MaptyLink" href="https://github.com/alizeeshan1234/Mapty" target="_blank">Mapty</a><center>
+          </p>
+        </h2>
+        </div>
+        <div id="project3">
+          <h2>
+            <span>Bankist - </span>
+            <p id="MaptyContent">
+              This Project mainly focuses of Advance DOM manipulation. This Project is Builded <br>
+              Using DOM topics like Implementing sticky navigation , implementing smooth scroll <br>
+              and intersection observer API etc. For more Detail visit
+              <center><a onclick="alertFunction()" id="BankistLink" href="https://github.com/alizeeshan1234/advDOM" target="_blank">Bankist</a><center>
+            </p>
+          </h2>
+        </div>
+        <div id="project4">
+          <h2>
+            <span>Currency Converter - </span>
+            <p id="Currency--Converter">
+              This project provides a basic user interface consisting of several HTML elements.<br>
+              This project utilizes asynchronous JavaScript to fetch currency exchange rate data from an external API.<br>
+              Users can select the base and target currencies, enter an amount, and click the "Convert" button to see the converted amount.
+              <center><a onclick="alertFunction()" id="currencyConverter" href="https://github.com/alizeeshan1234/CurrencyConverter" target="_blank">Currency Converter</a><center>
+            </p>
+          </h2>
+      </div>
+      </section>
+      <section id="section--3">
+        <h1 style="font-size: 60px;font-weight: 100;color: white; font-family:Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-seri;">About Me</h1>
+      <div id="chart">
+        <canvas id="languagesChart" width="400" height="400"></canvas>
+      </div>
+      <div id="intro">
+      <p id="intro">
+        Hello, I am Mohammed Ali Zeeshan, a dedicated <br> web developer with  an insatiable thirst for knowledge.<br> Currently, I am delving deep into<br> the intricacies of the remarkable JavaScript library,<br> Chart.js, refining my skills to <br>create visually stunning data representations.<br>
+
+Looking ahead,<br> my aspirations extend into the realm of blockchain development.<br> I am passionate about exploring the innovative possibilities that blockchain <br>technology offers, and I am determined to channel my skills and passion into becoming a proficient blockchain developer in the future.<br>
+
+Driven by dreams<br> and motivated by challenges, I am on a relentless<br> pursuit to achieve my goals. With a heart full of ambition and a mind open to learning,<br> I am excited about the exciting journey that lies ahead.
+      </p>
+    </div>
+      </section>
+      <section id="section--4">
+      </section>
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      <script src="script.js"></script>
+</body>
+</html>
